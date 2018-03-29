@@ -1,0 +1,111 @@
+/* navbar css */
+        .nav_change {
+            transition-duration: 1.5s;
+        }
+         .navbar_bg_color
+        {
+            background-color: rgba(0,0,0,0.5);
+            width: 100%;
+        }
+        
+        .nav
+        {
+            line-height: 3.5rem; 
+            position: fixed;
+            z-index: 997;
+            
+        }
+        
+        .right_navbar ul
+        {
+            display: flex;
+            float: right;
+
+        }
+        
+        .right_navbar ul li
+        {
+            margin: 0 1rem;
+            transition:all ease .3s;
+        }
+        
+        .right_navbar ul li:hover
+        {
+            color: red;
+            transition:all ease .3s;
+        }
+        
+        .left_navbar
+        {
+            margin-top: 1vh;
+        }
+        .menu-button{
+            cursor: pointer;
+            margin-top: 1.5rem;
+            margin-left: 2rem !important;
+        }
+       
+        .top-bar, .mid-bar, .bot-bar{
+            font-size: 2rem;
+            position: absolute;
+        }
+        
+        .top-bar{
+            margin: 0.4rem 0;
+            transition: all .5s;
+         
+        }
+        
+        .mid-bar{
+            opacity: 100%;
+            transition:all ease .5s; 
+        }
+       
+        .bot-bar{
+            margin:  -0.4rem 0;
+            transition: all ease .5s;
+        }
+       
+        .top-bar.active{
+               transform: rotate(225deg);
+               margin-top: 0vh;
+               
+        }
+        
+        .mid-bar.active{
+                transform: translateX(20px);
+                opacity: 0;
+                transition:all ease .3s;
+                
+        }
+       
+        .bot-bar.active{
+                transform: rotate(-225deg);
+                margin-top: 0vh;
+                
+        }
+
+        .sidenav{
+            width: 15rem;
+            padding: 10rem 0;
+            background-color: rgba(0,0,0,0.5) !important;
+            margin: 0;
+            height: 100%;
+            position: fixed;
+            transform:translateX(-15rem);
+            transition:all ease 0.5s;
+            z-index: 3;
+        }
+        .sidenav.active{
+            transform:translateX(0rem);
+        }
+
+        .sidenav a{
+            text-decoration: none !important;
+            color: #000;
+        }
+        .sidenav li{
+            font-size: 1.2rem;
+            padding: 0.5rem 0;
+        }
+        /* navbar css end*/

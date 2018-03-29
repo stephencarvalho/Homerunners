@@ -1,0 +1,153 @@
+ *{
+            font-size: 0.8rem;
+            font-family: cursive;
+        }
+        
+        a{
+            text-decoration: none;
+            text-transform: top-barcase;
+            color: #fff;
+        }
+        
+         /* label color */
+   .input-field label {
+     color: black !important;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: red !important;
+   }
+   .input-field input[type=email]:focus + label {
+     color: red !important;
+   }
+   .input-field input[type=password]:focus + label {
+     color:red !important;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bot-bar: 0.0625rem solid #424242 !important;
+     box-shadow: 0 0.0625rem 0 0 #424242 !important;
+   }
+   .input-field input[type=email]:focus {
+     border-bot-bar: 0.0625rem solid #424242 !important;
+     box-shadow: 0 0.0625rem 0 0 #424242 !important;
+   }
+   .input-field input[type=password]:focus {
+     border-bot-bar: 0.0625rem solid #424242;
+     box-shadow: 0 0.0625rem 0 0 #424242;
+   }
+   
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #424242 !important;
+   }
+       /* What our customers think*/
+        .round {
+            border-radius: 50%;
+            overflow: hidden;
+            width: 9.375rem;
+            height: 9.375rem;
+            border: solid 0.3125rem white;
+        }
+        /* top projects slider*/
+        .slider .indicators .indicator-item {
+
+            height: 0rem;
+            width: 0rem;
+        }
+        #slider1{
+            height: 80vh !important;
+        }
+        #slides1 {
+            height: 58.5rem !important;
+        }
+        
+        .bg_image
+        {      
+            width: 100%;
+            
+
+        }
+        
+        .no-margin
+        {
+            margin: 0 !important;
+        }
+        
+        .vwrapper
+        {
+            display: table;
+        }
+        
+        .valign
+        {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        
+        .logo
+        {
+            height:4rem;  
+            vertical-align: middle;
+        }
+        .footer-copyright
+        {
+            border-top :0.0625rem solid #da251c !important;
+            border: 0.625rem;
+            background-color: black;
+        }
+   
+        
+        /*  Search box-shadow: */
+        
+        form{
+            padding-left:6vh;
+        }
+        input[type=search]{
+            border: 0 !important;
+            box-shadow: none;
+        }
+        input[type=search]:focus+label{
+             border: 0 !important;
+            box-shadow: none;
+        }
+        
+        
+        .bg-wrapper {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: none;
+            z-index: 0; 
+        }
+        hr {
+
+            border: 0;
+            width: 100%;
+            color: #f00;
+            background-color: #f00;
+            height: 0.0625rem;
+            
+        }
+         hr {
+            padding: 0;
+            border: none;
+            border-top:  1px solid red;
+            color: #333;
+            text-align: center;    
+            font-size:24px;
+        }
+        hr:after {
+
+            display: inline-block;
+            position: relative; 
+            top: -0.6em;  
+            font-size: 1.5em;
+            padding: 0 0.25em;
+            background: white;
+        }​
+  
+        .image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
